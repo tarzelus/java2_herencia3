@@ -32,7 +32,7 @@ public class Main {
 	        alumno.setCursoAlumno("Desarrollo web");
 	        alumno.setDniAlumno("777777777T");
 
-	        System.out.print("\n\n--- Profesor: ");
+	        System.out.print("\n\n--- Alumno: ");
 	        System.out.print("\nNombre: " + alumno.getNombreAlumno());
 	        System.out.print("\nId: " + alumno.getIdAlumno());
 	        System.out.print("\nEstudiando: " + alumno.getCursoAlumno());

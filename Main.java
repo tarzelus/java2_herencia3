@@ -38,6 +38,16 @@ public class Main {
 	        System.out.print("\nEstudiando: " + alumno.getCursoAlumno());
 	        System.out.print("\nDni: " + alumno.getDniAlumno());
 
+ 		//Hashtable
+
+	        Hashtable<String,String> otrosEspacios = new Hashtable<String,String>();
+	        otrosEspacios.put("Nombre1", alumno.getNombreAlumno());
+			otrosEspacios.put("Id", alumno.getIdAlumno());
+			otrosEspacios.put("Estudiando", alumno.getCursoAlumno());
+			otrosEspacios.put("Dni", alumno.getDniAlumno());
+			System.out.print("\n\n--- Impresion Hashtable : \n");
+			System.out.println(otrosEspacios.get("Nombre1"));
+			System.out.println(otrosEspacios.get("Dni"));
 	        
 	        
 	}
